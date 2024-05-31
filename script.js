@@ -1,7 +1,7 @@
-const cartIcon = document.querySelector(".cart");
+const cartIcon = document.querySelector(".cart-icon");
 const modalLink = document.querySelector(".modal");
 // let isModalOpen = false;
 
-document.addEventListener("click", () => {
+cartIcon.addEventListener("click", () => {
   modalLink.classList.toggle("none");
 });
